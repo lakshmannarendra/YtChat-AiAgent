@@ -1,4 +1,4 @@
-# YtChat – YouTube Video AI Chatbot
+# YtChat – YouTube Video AI AGENT
 
 This project lets you chat with an AI about any YouTube video.  
 It uses two Gemini AIs: one for analyzing video transcripts, and one for summarizing answers for users.
