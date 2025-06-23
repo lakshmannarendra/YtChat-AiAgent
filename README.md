@@ -85,6 +85,3 @@ Then update your Bright Data webhook/API settings to use the public ngrok URL.
 
 ---
 
-## License
-
-MIT
