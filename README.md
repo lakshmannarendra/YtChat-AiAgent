@@ -27,6 +27,7 @@ DB_URL=your_postgres_url
 BRIGHTDATA_API_KEY=your_brightdata_key
 GEMINI_API_KEY_SUMMARIZER=your_gemini_key_1
 GEMINI_API_KEY_ANALYZER=your_gemini_key_2
+GOOGLE_API_KEY=your_gemini_key_3
 ```
 
 ### 3. Install dependencies
