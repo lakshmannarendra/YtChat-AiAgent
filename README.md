@@ -14,8 +14,8 @@ It uses two Gemini AIs: one for analyzing video transcripts, and one for summari
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/YtChat.git
-cd YtChat
+https://github.com/lakshmannarendra/YtChat-AiAgent.git
+
 ```
 
 ### 2. Set up environment variables
