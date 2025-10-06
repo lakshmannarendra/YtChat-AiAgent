@@ -62,23 +62,6 @@ app.post('/webhook', async (req, res) => {
 
 // Expose an explicit endpoint to trigger BrightData scraping.
 // Expected body: { "url": "https://youtu.be/..." }
-app.post('/scrape-video', async (req, res) => {
-  const { url } = req.body;
-
-  if (!url) {
-    return res.status(400).json({ error: 'YouTube URL is required' });
-  }
-
-  try {
-    console.log('Triggering video scrape for:', url);
-    const snapshotId = await triggerYoutubeVideoScrape(url);
-
-    res.json({ message: 'Video scraping initiated', snapshotId, status: 'processing' });
-  } catch (error) {
-    console.error('Error triggering video scrape:', error);
-    res.status(500).json({ error: 'Failed to initiate video scraping' });
-  }
-});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
