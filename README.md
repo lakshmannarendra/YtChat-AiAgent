@@ -72,9 +72,7 @@ cd ../client
 npm run dev
 ```
 
-### 6. Open the app
 
-Go to [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
